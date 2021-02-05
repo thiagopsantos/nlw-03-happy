@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+:root {
+  /* Através do User-Agent, 100% é igual a 16px */
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  /* Atalho (Shorthand) para fonte */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+
+  /* Definição das propriedades individualmente */
+  /* font-weight: 400;
+  font-size: 18px;  
+  line-height: 1;
+  font-family: 'Nunito', sans-serif; */
+}
